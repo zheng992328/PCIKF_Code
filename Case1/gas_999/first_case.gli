@@ -1,0 +1,105 @@
+#POINTS
+0 0 0 0 
+1 0 0 6 
+2 0 0 10 
+3 0 0 20 
+4 0 0 30 
+5 10 0 5 
+6 10 0 15 
+7 10 0 25 
+8 20 0 5 
+9 20 0 15 
+10 20 0 25 
+11 30 0 0 
+12 30 0 20 
+13 30 0 30 
+14 30 0 10 
+#POLYLINE
+ $NAME
+  PLY_4
+ $POINTS
+  4
+  1
+ $MAT_GROUP
+  4
+#POLYLINE
+ $NAME
+  PLY_5
+ $POINTS
+  4
+  0
+  11
+  13
+  4
+ $MAT_GROUP
+  5
+#POLYLINE
+ $NAME
+  PLY_3
+ $POINTS
+  4
+  3
+  12
+  13
+  4
+ $MAT_GROUP
+  2
+#POLYLINE
+ $NAME
+  PLY_4a
+ $POINTS
+  3
+  2
+  14
+  12
+  3
+ $MAT_GROUP
+  3
+#POLYLINE
+ $NAME
+  PLY_5a
+ $POINTS
+  2
+  0
+  11
+  14
+  2
+ $MAT_GROUP
+  4
+#SURFACE
+ $NAME
+  SURF_0
+ $POLYLINES
+  PLY_5
+ $MAT_GROUP
+  2
+ $TYPE
+  0
+#SURFACE
+ $NAME
+  SURF_3
+ $POLYLINES
+  PLY_3
+ $MAT_GROUP
+  3
+ $TYPE
+  0
+#SURFACE
+ $NAME
+  SURF_5
+ $POLYLINES
+  PLY_4a
+ $MAT_GROUP
+  2
+ $TYPE
+  0
+#SURFACE
+ $NAME
+  SURF_5
+ $POLYLINES
+  PLY_5a
+ $MAT_GROUP
+  3
+ $TYPE
+  0
+#STOP
